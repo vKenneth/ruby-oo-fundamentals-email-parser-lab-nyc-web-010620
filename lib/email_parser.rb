@@ -10,4 +10,4 @@ parser = EmailAddressParser.new(email_addresses)
 parser.parse
 
 attr_accessor :parser
-def 
+def parser
