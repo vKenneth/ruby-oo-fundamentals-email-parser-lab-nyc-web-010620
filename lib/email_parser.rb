@@ -6,6 +6,7 @@
 
 email_addresses = "bella@gmail.com, yur@yahoo.com"
 parser = EmailAddressParser.new(email_addresses)
+def
  
 parser.parse
 
