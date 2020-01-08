@@ -9,6 +9,7 @@ parser = EmailAddressParser.new(email_addresses)
 
  
 parser.parse
+end
 
 attr_accessor :parser
 def parser=("bella@gmail.com")
