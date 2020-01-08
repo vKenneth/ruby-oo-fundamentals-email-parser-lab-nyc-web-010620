@@ -4,3 +4,9 @@
 # or whitespace (' ').
 
 
+email_addresses = "bella@gmail.com, yur@yahoo.com"
+parser = EmailAddressParser.new(email_addresses)
+ 
+parser.parse
+
+attr_accessor
