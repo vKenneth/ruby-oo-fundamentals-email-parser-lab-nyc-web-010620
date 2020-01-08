@@ -15,4 +15,3 @@ attr_accessor :parser
 def parser=("bella@gmail.com")
   def parser=("yur@yahoo.com")
   end
-end
