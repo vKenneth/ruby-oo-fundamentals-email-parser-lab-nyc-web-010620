@@ -6,7 +6,7 @@
 
 email_addresses = "bella@gmail.com, yur@yahoo.com"
 parser = EmailAddressParser.new(email_addresses)
-end
+
  
 parser.parse
 
@@ -15,3 +15,5 @@ attr_accessor :parser
 def parser=("bella@gmail.com")
   def parser=("yur@yahoo.com")
   end
+end
+end
